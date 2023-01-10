@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getData } from './utils';
+import { getData } from '../utilities/utils';
 
 import Listing from './Listing';
 

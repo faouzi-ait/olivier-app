@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Listing from './Listing';
-import { getData } from './utils';
+import { getData } from '../utilities/utils';
 
-export default function Search() {
+export default function Meal() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
